@@ -1,0 +1,6 @@
+{
+  "name": "claude-auto-level",
+  "description": "Mod, der pro Prompt automatisch Modell und Denktiefe wählt.",
+  "owner": { "name": "Mario" },
+  "plugins": [{ "name": "auto-level", "source": "./" }]
+}
