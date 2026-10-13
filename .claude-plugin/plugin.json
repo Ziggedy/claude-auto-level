@@ -1,0 +1,20 @@
+{
+  "name": "auto-level",
+  "version": "0.2.0",
+  "description": "Wählt pro Prompt automatisch Modell (Sonnet/Opus) und Denktiefe anhand von Stichwort-Regeln.",
+  "author": { "name": "Mario" },
+  "userConfig": {
+    "extraHard": {
+      "type": "string",
+      "title": "Eigene Stichworte: schwer",
+      "description": "Kommagetrennt, z. B. Firmenbegriffe. Treffer stufen hoch (Opus, high).",
+      "default": ""
+    },
+    "extraMax": {
+      "type": "string",
+      "title": "Eigene Stichworte: maximal",
+      "description": "Kommagetrennt. Treffer stufen stark hoch (Opus, xhigh).",
+      "default": ""
+    }
+  }
+}
